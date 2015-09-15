@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="알림" >
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="autoUpdate"
+            android:summary="알람을 설정합니다."
+            android:switchTextOff="OFF"
+            android:switchTextOn="ON"
+            android:title="알람" />
+
+        <Preference 
+            android:title="알람 시간"
+             android:key="alarm_time"
+            android:summary="AM 09:00"
+            android:dependency="autoUpdate"
+            />
+        
+        <ListPreference
+        android:defaultValue="22"
+        android:dependency="autoUpdate"
+        android:entries="@array/userNameOpen1"
+        android:entryValues="@array/userNameOpen_values"
+        android:key="alarm_term"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:summary="2시간"
+        android:title="알람 간격" />
+        
+        <ListPreference
+        android:defaultValue="소리"
+        android:dependency="autoUpdate"
+        android:entries="@array/useralrarm"
+        android:entryValues="@array/useralrarm_values"
+        android:key="alrarm_method"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+         android:summary="알람방식을 설정합니다(진동,소리)"
+        android:title="알람 방식" />
+
+        <RingtonePreference
+            
+            android:defaultValue="content://settings/system/notification_sound"
+            android:dependency="autoUpdate"
+            android:key="autoUpdate_ringtone"
+            android:ringtoneType="notification"
+            android:showSilent="true"
+            
+            android:summary="알람소리를 설정합니다"
+            android:title="소리 설정" />
+        
+        <ListPreference
+        android:defaultValue="3"
+        android:dependency="autoUpdate"
+        android:entries="@array/uservibrate"
+        android:entryValues="@array/uservibrate_values"
+        android:key="vibrater"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+         android:summary="진동를 설정합니다"
+        android:title="진동 설정" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

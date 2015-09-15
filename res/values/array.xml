@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="userNameOpen1">
+    <item>1 시간 30분</item>
+    <item>2 시간</item>
+    <item>2 시간 30분</item>
+</string-array>
+
+<string-array name="userNameOpen_values">
+    <item>11</item>
+    <item>22</item>
+    <item>33</item>
+</string-array>
+
+<!-- 알람 설정 -->
+<string-array name="useralrarm">
+    <item>진동</item>
+    <item>소리</item>
+    <item>진동+소리</item>
+</string-array>
+
+<string-array name="useralrarm_values">
+    <item>진동</item>
+    <item>소리</item>
+    <item>진+소</item>
+</string-array>
+    
+<!-- 진동 설정 -->
+<string-array name="uservibrate">
+    <item>윙~</item>
+    <item>윙~윙~</item>
+    <item>윙~윙윙~</item>
+</string-array>
+
+<string-array name="uservibrate_values">
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+</string-array>
+</resources>

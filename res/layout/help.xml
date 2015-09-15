@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="도움말"
+        android:textSize="20sp" />
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="텀블러가 있다면 텀블러와 블루투스 연동을 하십시오."
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="텀블러가 없거나 페어링을 하지 않은 상태에서는 수동으로 조작 하실 수 있습니다."
+        android:textSize="15sp" />
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="텀블러의 컵 수가 하루가 지나도 0이 되지않는 경우에는 텀블러 밑바닥에 있는 코인셀 전지를 교체를 해주어야 합니다."
+        android:textSize="15sp" />
+     
+    
+    
+
+</LinearLayout>
